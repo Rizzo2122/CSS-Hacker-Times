@@ -2,11 +2,11 @@
 
 body{
    font-family: Source Sans Pro; 
-   background-color: #eee;
+   background: #eee;
    border-color: #eee;
 }
 
-header{
+header h1{
     font-family: Abril Fatface;
     text-align: center;
 }
@@ -16,13 +16,14 @@ h2{
 }
 
 .newspaper-container{
-    background-color: white;
+    background: white;
     box-shadow: #ddd;
     width: 700px;
-    border-radius: 2%;
-    box-shadow: 2px 2px 2px 2px gray;
-    padding: 2.3em;
-    margin: 50px 20px 50px 330px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+    padding: 1em;
+    margin: 3em auto;
+    box-sizing: border-box;
 }
 
 h5{
@@ -31,6 +32,7 @@ h5{
 
 a{
     color: #777;
+    text-decoration: none;
 }
 
 ul{
@@ -40,7 +42,7 @@ ul{
 
 li{
     display: inline-block;
-    padding: 7px;
+    padding: 3px;
 }
 
 nav{
@@ -52,5 +54,22 @@ nav{
 
 .more-articles{
     display: inline-block;
-    align-items: center;
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+p{
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+main img{
+    width: 100%;
+}
+
+.more-articles section{
+    display: inline-block;
+    width: 44%;
+    margin: 0 1em;
 }
